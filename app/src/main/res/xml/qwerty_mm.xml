@@ -26,8 +26,8 @@
     >
 
     <Row>
-        <Key android:codes="1006" android:keyLabel="ဆ" android:keyEdgeFlags="left"/>
-        <Key android:codes="1010" android:keyLabel="တ"/>
+        <Key android:codes="4102" android:keyLabel="ဆ" android:keyEdgeFlags="left"/>
+        <Key android:codes="4112" android:keyLabel="တ"/>
         <Key android:codes="101" android:keyLabel="န"/>
         <Key android:codes="114" android:keyLabel="မ"/>
         <Key android:codes="116" android:keyLabel="အ"/>
@@ -39,7 +39,7 @@
     </Row>
     
     <Row>
-        <Key android:codes="97" android:keyLabel="ေ" android:horizontalGap="5%p"
+        <Key android:codes="4145" android:keyLabel="ေ" android:horizontalGap="5%p"
                 android:keyEdgeFlags="left"/>
         <Key android:codes="115" android:keyLabel="ျ"/>
         <Key android:codes="100" android:keyLabel="ိ"/>
