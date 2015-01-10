@@ -632,6 +632,22 @@ public class SoftKeyboard extends InputMethodService
             mInputView.setKeyboard(mSymbolsKeyboard);
             mSymbolsKeyboard.setShifted(false);
         }
+        //Changes made by Win Htai kAUng change keyboard layout
+        else if (currentKeyboard == mQwertymmKeyboard) {
+            mQwertymmKeyboard.setShifted(true);
+            mInputView.setKeyboard(mQwertymmShiftedKeyboard);
+            mQwertymmShiftedKeyboard.setShifted(true);
+        }
+
+        else if (currentKeyboard == mQwertymmShiftedKeyboard) {
+            mQwertymmShiftedKeyboard.setShifted(false);
+            mInputView.setKeyboard(mQwertymmKeyboard);
+            mQwertymmKeyboard.setShifted(false);
+        }
+
+
+
+
     }
     
     private void handleCharacter(int primaryCode, int[] keyCodes) {

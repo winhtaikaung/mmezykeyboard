@@ -26,16 +26,16 @@
     >
 
     <Row>
-        <Key android:codes="113" android:keyLabel="ဈ" android:keyEdgeFlags="left"/>
-        <Key android:codes="119" android:keyLabel="ဝ"/>
-        <Key android:codes="101" android:keyLabel="ဣ"/>
-        <Key android:codes="114" android:keyLabel="၎"/>
-        <Key android:codes="116" android:keyLabel="ဤ"/>
-        <Key android:codes="121" android:keyLabel="၌"/>
-        <Key android:codes="117" android:keyLabel="ဥ"/>
-        <Key android:codes="105" android:keyLabel="၍"/>
-        <Key android:codes="111" android:keyLabel="ဿ"/>
-        <Key android:codes="112" android:keyLabel="ဏ" android:keyEdgeFlags="right"/>
+        <Key android:codes="4104" android:keyLabel="ဈ" android:keyEdgeFlags="left"/>
+        <Key android:codes="4125" android:keyLabel="ဝ"/>
+        <Key android:codes="4131" android:keyLabel="ဣ"/>
+        <Key android:codes="4108" android:keyLabel="၎"/>
+        <Key android:codes="4132" android:keyLabel="ဤ"/>
+        <Key android:codes="4172" android:keyLabel="၌"/>
+        <Key android:codes="4133" android:keyLabel="ဥ"/>
+        <Key android:codes="4173" android:keyLabel="၍"/>
+        <Key android:codes="4159" android:keyLabel="ဿ"/>
+        <Key android:codes="4111" android:keyLabel="ဏ" android:keyEdgeFlags="right"/>
     </Row>
     
     <Row>
