@@ -28,20 +28,20 @@
     <Row>
         <Key android:codes="4102" android:keyLabel="ဆ" android:keyEdgeFlags="left"/>
         <Key android:codes="4112" android:keyLabel="တ"/>
-        <Key android:codes="101" android:keyLabel="န"/>
-        <Key android:codes="114" android:keyLabel="မ"/>
-        <Key android:codes="116" android:keyLabel="အ"/>
-        <Key android:codes="121" android:keyLabel="ပ"/>
-        <Key android:codes="117" android:keyLabel="က"/>
-        <Key android:codes="105" android:keyLabel="င"/>
-        <Key android:codes="111" android:keyLabel="သ"/>
-        <Key android:codes="112" android:keyLabel="စ" android:keyEdgeFlags="right"/>
+        <Key android:codes="4116" android:keyLabel="န"/>
+        <Key android:codes="4121" android:keyLabel="မ"/>
+        <Key android:codes="4129" android:keyLabel="အ"/>
+        <Key android:codes="4117" android:keyLabel="ပ"/>
+        <Key android:codes="4096" android:keyLabel="က"/>
+        <Key android:codes="4100" android:keyLabel="င"/>
+        <Key android:codes="4126" android:keyLabel="သ"/>
+        <Key android:codes="4101" android:keyLabel="စ" android:keyEdgeFlags="right"/>
     </Row>
     
     <Row>
         <Key android:codes="4145" android:keyLabel="ေ" android:horizontalGap="5%p"
                 android:keyEdgeFlags="left"/>
-        <Key android:codes="115" android:keyLabel="ျ"/>
+        <Key android:codes="4154" android:keyLabel="ျ"/>
         <Key android:codes="100" android:keyLabel="ိ"/>
         <Key android:codes="102" android:keyLabel="်"/>
         <Key android:codes="103" android:keyLabel="ါ"/>
@@ -55,9 +55,9 @@
         <Key android:codes="-1" android:keyIcon="@drawable/sym_keyboard_shift" 
                 android:keyWidth="15%p" android:isModifier="true"
                 android:isSticky="true" android:keyEdgeFlags="left"/>
-        <Key android:codes="122" android:keyLabel="ဖ"/>
-        <Key android:codes="120" android:keyLabel="ထ"/>
-        <Key android:codes="99" android:keyLabel="ခ"/>
+        <Key android:codes="4118" android:keyLabel="ဖ"/>
+        <Key android:codes="4113" android:keyLabel="ထ"/>
+        <Key android:codes="4097" android:keyLabel="ခ"/>
         <Key android:codes="118" android:keyLabel="လ"/>
         <Key android:codes="98" android:keyLabel="ဘ"/>
         <Key android:codes="110" android:keyLabel="ည"/>
