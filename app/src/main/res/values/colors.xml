@@ -22,6 +22,8 @@
     <color name="candidate_recommended">#FFE35900</color>
     <color name="candidate_other">#424242</color>
     <color name="candidate_background">#424242</color>
-    <color name="key_background">#424242</color>
-    <color name="key_textcolor">#fff7fff8</color>
+    <!--color name="key_background">#424242</color-->
+    <color name="key_background">#ffffff</color>
+    <!--color name="key_textcolor">#fff7fff8</color-->
+    <color name="key_textcolor">#424242</color>
 </resources>

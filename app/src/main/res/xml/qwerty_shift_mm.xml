@@ -39,11 +39,11 @@
     </Row>
     
     <Row>
-        <Key android:codes="97" android:keyLabel="ဗ" android:horizontalGap="5%p"
+        <Key android:codes="4119" android:keyLabel="ဗ" android:horizontalGap="5%p"
                 android:keyEdgeFlags="left"/>
-        <Key android:codes="115" android:keyLabel="ှ"/>
+        <Key android:codes="4158" android:keyLabel="ှ"/>
 
-        <Key android:codes="100" android:keyLabel="ီ"/>
+        <Key android:codes="4142" android:keyLabel="ီ"/>
         <Key android:codes="102" android:keyLabel="္"/>
         <Key android:codes="103" android:keyLabel="ွ"/>
         <Key android:codes="104" android:keyLabel="ံ"/>

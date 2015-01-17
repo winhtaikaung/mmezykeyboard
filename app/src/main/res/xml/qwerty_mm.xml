@@ -39,16 +39,17 @@
     </Row>
     
     <Row>
-        <Key android:codes="4145" android:keyLabel="ေ" android:horizontalGap="5%p"
+        <Key android:codes="4145" android:keyLabel="ေ" android:horizontalGap="2.5%p"
                 android:keyEdgeFlags="left"/>
-        <Key android:codes="4154" android:keyLabel="ျ"/>
+        <Key android:codes="4155" android:keyLabel="ျ"/>
         <Key android:codes="4141" android:keyLabel="ိ"/>
-        <Key android:codes="4153" android:keyLabel="်"/>
+        <Key android:codes="4154" android:keyLabel="်"/>
         <Key android:codes="4139" android:keyLabel="ါ"/>
         <Key android:codes="4151" android:keyLabel="့"/>
-        <Key android:codes="4155" android:keyLabel="ြ"/>
+        <Key android:codes="4156" android:keyLabel="ြ"/>
         <Key android:codes="4143" android:keyLabel="ု"/>
-        <Key android:codes="4144" android:keyLabel="ူ" android:keyEdgeFlags="right"/>
+        <Key android:codes="4144" android:keyLabel="ူ"/>
+        <Key android:codes="4152" android:keyLabel="း" android:horizontalGap="-4.0%p" android:keyEdgeFlags="right"/>
     </Row>
     
     <Row>
