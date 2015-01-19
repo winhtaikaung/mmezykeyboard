@@ -21,6 +21,7 @@ import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
 import android.text.InputType;
 import android.text.method.MetaKeyKeyListener;
+import android.util.Log;
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
 import android.view.View;
@@ -29,6 +30,7 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
 import android.view.inputmethod.InputMethodManager;
 import android.view.inputmethod.InputMethodSubtype;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -300,7 +302,7 @@ public class SoftKeyboard extends InputMethodService
         if (mCompletionOn) {
             mCompletions = completions;
             if (completions == null) {
-                setSuggestions(null, false, false);
+               // setSuggestions(null, false, false);
                 return;
             }
             
@@ -309,7 +311,7 @@ public class SoftKeyboard extends InputMethodService
                 CompletionInfo ci = completions[i];
                 if (ci != null) stringList.add(ci.getText().toString());
             }
-            setSuggestions(stringList, true, true);
+           // setSuggestions(stringList, true, true);
         }
     }
     
@@ -468,6 +470,7 @@ public class SoftKeyboard extends InputMethodService
      */
     private boolean isAlphabet(int code) {
         if (Character.isLetter(code)) {
+
             return true;
         } else {
             return false;
@@ -497,6 +500,7 @@ public class SoftKeyboard extends InputMethodService
                     keyDownUp(keyCode - '0' + KeyEvent.KEYCODE_0);
                 } else {
                     getCurrentInputConnection().commitText(String.valueOf((char) keyCode), 1);
+
                 }
                 break;
         }
@@ -662,9 +666,12 @@ public class SoftKeyboard extends InputMethodService
             updateShiftKeyState(getCurrentInputEditorInfo());
             updateCandidates();
         } else {
-            //making changes to parse
+            //making changes to parse By Win Htaik Aung
+            mComposing.append((char) primaryCode);
             getCurrentInputConnection().commitText(
-                    String.valueOf((char) primaryCode), 1);
+                    mComposing, 1);
+           // getCurrentInputConnection().commitText(
+                    //String.valueOf((char) primaryCode), 1);
         }
     }
 
@@ -732,6 +739,7 @@ public class SoftKeyboard extends InputMethodService
     }
     
     public void onPress(int primaryCode) {
+
     }
     
     public void onRelease(int primaryCode) {

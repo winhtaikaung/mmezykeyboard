@@ -26,12 +26,12 @@
     >
 
     <Row>
-        <Key android:codes="4102" android:keyLabel="ဆ" android:keyEdgeFlags="left"/>
-        <Key android:codes="4112" android:keyLabel="တ"/>
-        <Key android:codes="4116" android:keyLabel="န"/>
-        <Key android:codes="4121" android:keyLabel="မ"/>
-        <Key android:codes="4129" android:keyLabel="အ"/>
-        <Key android:codes="4117" android:keyLabel="ပ"/>
+        <Key android:codes="4102" android:keyLabel="ဆ" android:keyEdgeFlags="left" android:popupCharacters="ဆ"/>
+        <Key android:codes="4112" android:keyLabel="တ" android:popupCharacters="တ" />
+        <Key android:codes="4116" android:keyLabel="န" android:popupCharacters="န"  />
+        <Key android:codes="4121" android:keyLabel="မ" android:popupCharacters="မ"/>
+        <Key android:codes="4129" android:keyLabel="အ" android:popupCharacters="အ" />
+        <Key android:codes="4117" android:keyLabel="ပ"  android:popupCharacters="ပ"/>
         <Key android:codes="4096" android:keyLabel="က"/>
         <Key android:codes="4100" android:keyLabel="င"/>
         <Key android:codes="4126" android:keyLabel="သ"/>
