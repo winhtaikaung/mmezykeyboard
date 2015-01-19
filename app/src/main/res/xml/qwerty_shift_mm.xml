@@ -44,25 +44,25 @@
         <Key android:codes="4158" android:keyLabel="ှ"/>
 
         <Key android:codes="4142" android:keyLabel="ီ"/>
-        <Key android:codes="102" android:keyLabel="္"/>
-        <Key android:codes="103" android:keyLabel="ွ"/>
-        <Key android:codes="104" android:keyLabel="ံ"/>
-        <Key android:codes="106" android:keyLabel="ဲ"/>
-        <Key android:codes="107" android:keyLabel="ဒ"/>
-        <Key android:codes="108" android:keyLabel="ဓ" android:keyEdgeFlags="right"/>
+        <Key android:codes="4153" android:keyLabel="္"/>
+        <Key android:codes="4157" android:keyLabel="ွ"/>
+        <Key android:codes="4150" android:keyLabel="ံ"/>
+        <Key android:codes="4146" android:keyLabel="ဲ"/>
+        <Key android:codes="4114" android:keyLabel="ဒ"/>
+        <Key android:codes="4115" android:keyLabel="ဓ" android:keyEdgeFlags="right"/>
     </Row>
     
     <Row>
         <Key android:codes="-1" android:keyIcon="@drawable/sym_keyboard_shift" 
                 android:keyWidth="15%p" android:isModifier="true"
                 android:isSticky="true" android:keyEdgeFlags="left"/>
-        <Key android:codes="122" android:keyLabel="ဇ"/>
-        <Key android:codes="120" android:keyLabel="ဌ"/>
-        <Key android:codes="99" android:keyLabel="ဃ"/>
-        <Key android:codes="118" android:keyLabel="ဠ"/>
-        <Key android:codes="98" android:keyLabel="ယ"/>
-        <Key android:codes="110" android:keyLabel="ဉ"/>
-        <Key android:codes="109" android:keyLabel="ဦ"/>
+        <Key android:codes="4103" android:keyLabel="ဇ"/>
+        <Key android:codes="4108" android:keyLabel="ဌ"/>
+        <Key android:codes="4099" android:keyLabel="ဃ"/>
+        <Key android:codes="4128" android:keyLabel="ဠ"/>
+        <Key android:codes="4122" android:keyLabel="ယ"/>
+        <Key android:codes="4105" android:keyLabel="ဉ"/>
+        <Key android:codes="4134" android:keyLabel="ဦ"/>
         <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete"
                 android:keyWidth="15%p" android:keyEdgeFlags="right"
                 android:isRepeatable="true"/>
@@ -74,9 +74,12 @@
 
 
         <Key android:codes="-2" android:keyLabel="၁၂၃" android:keyWidth="15%p"/>
+        <Key android:codes="0FE0"
+            android:keyIcon="@drawable/sym_keyboard_lang"
+            android:keyWidth="10%p"/>
         <Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space" 
                 android:keyWidth="30%p" android:isRepeatable="true"/>
-        <Key android:codes="46,44" android:keyLabel=". ,"
+        <Key android:codes="4171,4170" android:keyLabel="။ ၊"
                 android:keyWidth="15%p"/>
         <Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return" 
                 android:keyWidth="20%p" android:keyEdgeFlags="right"/>

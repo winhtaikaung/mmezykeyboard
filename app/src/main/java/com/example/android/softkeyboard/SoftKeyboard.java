@@ -126,6 +126,7 @@ public class SoftKeyboard extends InputMethodService
                 R.layout.input, null);
         mInputView.setOnKeyboardActionListener(this);
         mInputView.setKeyboard(mQwertyKeyboard);
+        mInputView.setPreviewEnabled(true);
         return mInputView;
     }
 
@@ -662,11 +663,13 @@ public class SoftKeyboard extends InputMethodService
         }
         if (isAlphabet(primaryCode) && mPredictionOn) {
             mComposing.append((char) primaryCode);
+            // Here is the algorithims to do
             getCurrentInputConnection().setComposingText(mComposing, 1);
             updateShiftKeyState(getCurrentInputEditorInfo());
             updateCandidates();
         } else {
             //making changes to parse By Win Htaik Aung
+            // Here is the algorithims to do
             mComposing.append((char) primaryCode);
             getCurrentInputConnection().commitText(
                     mComposing, 1);
