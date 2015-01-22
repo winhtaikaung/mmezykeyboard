@@ -72,6 +72,8 @@ public class SoftKeyboard extends InputMethodService
     
     private LatinKeyboard mSymbolsKeyboard;
     private LatinKeyboard mSymbolsShiftedKeyboard;
+    private LatinKeyboard mSymbolmmkeyboard;
+    private LatinKeyboard mSymbolmmShiftedkeyboard;
     private LatinKeyboard mQwertyKeyboard;
     private LatinKeyboard mQwertyShiftedKeyboard;
     private LatinKeyboard mQwertymmKeyboard;
@@ -113,6 +115,8 @@ public class SoftKeyboard extends InputMethodService
         //implementing Myanmar Keyboard
         mQwertymmKeyboard=new LatinKeyboard(this,R.xml.qwerty_mm);
         mQwertymmShiftedKeyboard=new LatinKeyboard(this,R.xml.qwerty_shift_mm);
+        mSymbolmmkeyboard=new LatinKeyboard(this,R.xml.symbols_mm);
+        mSymbolmmShiftedkeyboard=new LatinKeyboard(this,R.xml.symbols_shift_mm);
     }
     
     /**
@@ -531,11 +535,17 @@ public class SoftKeyboard extends InputMethodService
             Keyboard current = mInputView.getKeyboard();
             if (current == mSymbolsKeyboard || current == mSymbolsShiftedKeyboard) {
                 current = mQwertyKeyboard;
+            }else if(current == mSymbolmmkeyboard || current == mSymbolmmShiftedkeyboard){
+                current=mQwertymmKeyboard;
             } else {
-                current = mSymbolsKeyboard;
+                if(current==mQwertyKeyboard) {
+                    current = mSymbolsKeyboard;
+                }else{
+                    current=mSymbolmmkeyboard;
+                }
             }
             mInputView.setKeyboard(current);
-            if (current == mSymbolsKeyboard) {
+            if (current == mSymbolsKeyboard || current==mSymbolmmkeyboard) {
                 current.setShifted(false);
             }
         }
@@ -648,6 +658,18 @@ public class SoftKeyboard extends InputMethodService
             mQwertymmShiftedKeyboard.setShifted(false);
             mInputView.setKeyboard(mQwertymmKeyboard);
             mQwertymmKeyboard.setShifted(false);
+        }
+
+        else if (currentKeyboard == mSymbolmmkeyboard) {
+
+            mSymbolmmkeyboard.setShifted(true);
+            mInputView.setKeyboard(mSymbolmmShiftedkeyboard);
+            mSymbolmmShiftedkeyboard.setShifted(true);
+
+        } else if (currentKeyboard == mSymbolmmShiftedkeyboard) {
+            mSymbolmmShiftedkeyboard.setShifted(false);
+            mInputView.setKeyboard(mSymbolmmkeyboard);
+            mSymbolmmkeyboard.setShifted(false);
         }
 
 

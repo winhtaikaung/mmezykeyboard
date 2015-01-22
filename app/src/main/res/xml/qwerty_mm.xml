@@ -24,6 +24,19 @@
     android:verticalGap="0px"
     android:keyHeight="@dimen/key_height"
     >
+    <Row>
+        <Key android:codes="4161" android:keyLabel="၁" android:keyEdgeFlags="left"/>
+        <Key android:codes="4162" android:keyLabel="၂"/>
+        <Key android:codes="4163" android:keyLabel="၃"/>
+        <Key android:codes="4164" android:keyLabel="၄"/>
+        <Key android:codes="4165" android:keyLabel="၅"/>
+        <Key android:codes="4166" android:keyLabel="၆"/>
+        <Key android:codes="4167" android:keyLabel="၇"/>
+        <Key android:codes="4168" android:keyLabel="၈"/>
+        <Key android:codes="4169" android:keyLabel="၉"/>
+        <Key android:codes="4160" android:keyLabel="၀" android:keyEdgeFlags="right"/>
+    </Row>
+
 
     <Row>
         <Key android:codes="4102" android:keyLabel="ဆ" android:keyEdgeFlags="left" android:popupCharacters="ဆ"/>

@@ -22,7 +22,9 @@
         <screen android:screenSize="normal" android:screenDensity="hdpi" />
         <screen android:screenSize="normal" android:screenDensity="xhdpi" />
     </compatible-screens>
-    <application android:label="@string/ime_name">
+    <application android:label="@string/ime_name"
+        android:icon="@drawable/ic_launcher"
+        >
         <service android:name="SoftKeyboard"
                 android:permission="android.permission.BIND_INPUT_METHOD">
             <intent-filter>
