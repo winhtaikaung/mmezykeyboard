@@ -18,7 +18,7 @@
 */
 -->
 
-<com.example.android.softkeyboard.LatinKeyboardView
+<com.example.android.lolikeyboard.LatinKeyboardView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/keyboard"
         android:background="@color/key_background"

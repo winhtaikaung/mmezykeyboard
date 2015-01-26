@@ -16,4 +16,11 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/settings_name">
+
+    <PreferenceCategory android:title="Settings" >
+        <EditTextPreference
+            android:title="Test Keyboard"
+            android:summary="Type Text to taste Your Loli keyboard"
+            android:key="prefUserPassword"/>
+    </PreferenceCategory>
 </PreferenceScreen>

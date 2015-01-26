@@ -36,7 +36,7 @@
         <Key android:codes="4127" android:keyLabel="ဟ"/>
         <Key android:codes="4123" android:keyLabel="ရ"/>
 
-        <Key android:codes="4138" android:keyLabel="ဪ"  />
+        <Key android:codes="4179" android:keyLabel="ၓ"  />
         <Key android:codes="4137" android:keyLabel="ဩ"/>
         <Key android:codes="4175" android:keyLabel="၏" android:keyEdgeFlags="right"/>
     </Row>
@@ -86,13 +86,13 @@
     
     <Row android:rowEdgeFlags="bottom">
         <Key android:codes="-3" android:keyIcon="@drawable/sym_keyboard_done" 
-                android:keyWidth="10%p" android:keyEdgeFlags="left"/>
+                android:keyWidth="15%p" android:keyEdgeFlags="left"/>
 
 
-        <Key android:codes="-2" android:keyLabel="၁၂၃" android:keyWidth="15%p"/>
+        <Key android:codes="-2" android:keyLabel="၁၂၃" android:keyWidth="10%p"/>
         <Key android:codes="0FE0"
             android:keyIcon="@drawable/sym_keyboard_lang"
-            android:keyWidth="10%p"/>
+            android:keyWidth="8%p"/>
         <Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space" 
                 android:keyWidth="30%p" android:isRepeatable="true"/>
         <Key android:codes="4171,4170" android:keyLabel="။ ၊"

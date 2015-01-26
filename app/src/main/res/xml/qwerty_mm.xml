@@ -83,14 +83,14 @@
     
     <Row android:rowEdgeFlags="bottom">
         <Key android:codes="-3" android:keyIcon="@drawable/sym_keyboard_done" 
-                android:keyWidth="10%p" android:keyEdgeFlags="left"/>
+                android:keyWidth="15%p" android:keyEdgeFlags="left"/>
 
 
-        <Key android:codes="-2" android:keyLabel="၁၂၃" android:keyWidth="15%p"/>
+        <Key android:codes="-2" android:keyLabel="၁၂၃" android:keyWidth="10%p"/>
 
         <Key android:codes="0FE0"
             android:keyIcon="@drawable/sym_keyboard_lang"
-            android:keyWidth="10%p"/>
+            android:keyWidth="8%p"/>
         <Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space" 
                 android:keyWidth="30%p" android:isRepeatable="true"/>
         <Key android:codes="4171,4170" android:keyLabel="။ ၊"
