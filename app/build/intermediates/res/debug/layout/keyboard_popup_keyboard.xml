@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/key_background"
+    >
+
+    <!-- The KeyboardView will inherit keyPreviewLayout, popupLayout, etc. from
+    the parent KeyboardView if not defined here. -->
+    <com.example.android.lolikeyboard.LatinKeyboardView
+        android:id="@+id/keyboardView"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <!--             android:keyPreviewLayout="@layout/keyboard_key_preview"
+    android:popupLayout="@layout/keyboard_popup_keyboard"
+    android:keyTextSize="22sp" -->
+    <!--ImageButton android:id="@id/button_close"
+        android:background="@android:color/transparent"
+        android:src="@drawable/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:clickable="true"
+        /-->
+</LinearLayout><!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/src/main/res/layout/keyboard_popup_keyboard.xml -->

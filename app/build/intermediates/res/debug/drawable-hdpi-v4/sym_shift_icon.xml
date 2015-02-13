@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/circle"
+        >
+
+
+    </item>
+
+
+
+    <item android:drawable="@android:drawable/stat_sys_upload_done" >
+
+        <shape>
+                <solid android:color="@color/key_textcolor"></solid>
+
+        </shape>
+    </item>
+
+
+
+
+
+</layer-list><!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/src/main/res/drawable-hdpi/sym_shift_icon.xml -->

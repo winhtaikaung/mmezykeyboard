@@ -5,7 +5,9 @@ android {
     buildToolsVersion "19.1.0"
 
     defaultConfig {
-        applicationId "com.example.android.softkeyboard"
+        applicationId "com.epicmyanmar.lolikeyboard"
+        versionCode 1
+        versionName "1.0"
     }
 
     buildTypes {

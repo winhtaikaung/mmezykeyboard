@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval"  >
+            <solid android:color="@color/material_teal"/>
+            <stroke android:color="@color/material_teal" android:width="1dip"/>
+            <size android:height="70px" android:width="70px">
+
+
+            </size>
+            <padding android:bottom="5dp" android:left="5dp" android:right="5dp" android:top="5dp"></padding>
+
+            <corners android:radius="100dip"  />
+        </shape>
+    </item>
+
+</selector>

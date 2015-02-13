@@ -23,6 +23,7 @@
     android:horizontalGap="0px"
     android:verticalGap="0px"
     android:keyHeight="@dimen/key_height"
+
     >
     <Row>
         <Key android:codes="4161" android:keyLabel="၁" android:keyEdgeFlags="left"/>
@@ -81,8 +82,11 @@
                 android:isRepeatable="true"/>
     </Row>
     
-    <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="-3" android:keyIcon="@drawable/sym_keyboard_done" 
+    <Row android:rowEdgeFlags="bottom"
+
+        >
+        <Key android:codes="-3" android:keyIcon="@drawable/sym_keyboard_done"
+
                 android:keyWidth="15%p" android:keyEdgeFlags="left"/>
 
 
@@ -95,7 +99,7 @@
                 android:keyWidth="30%p" android:isRepeatable="true"/>
         <Key android:codes="4171,4170" android:keyLabel="။ ၊"
                 android:keyWidth="15%p"/>
-        <Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return" 
+        <Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return"
                 android:keyWidth="20%p" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

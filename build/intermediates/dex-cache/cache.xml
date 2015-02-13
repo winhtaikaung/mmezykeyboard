@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/jr/.gradle/caches/modules-2/files-2.1/com.github.japgolly.android/svg-android/2.0.6/9b54af90b1718548570f6c6c44d8daad9e286dfd/svg-android-2.0.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9b54af90b1718548570f6c6c44d8daad9e286dfd">
+        <dex dex="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/pre-dexed/debug/svg-android-2.0.6-2d771faeb8ee93fc7f292a6cae4a63bce618b996.jar" />
+    </item>
+
+</items>

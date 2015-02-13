@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@android:drawable/ic_input_delete" >
+        <shape>
+            <solid android:color="@color/material_teal"></solid>
+        </shape>
+    </item>
+</selector><!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/src/main/res/drawable/sym_backspace_icon.xml -->

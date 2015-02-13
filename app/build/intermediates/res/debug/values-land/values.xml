@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/src/main/res/values-land/dimens.xml -->
+    <eat-comment/>
+    <dimen name="key_height">41dip</dimen>
+</resources>
