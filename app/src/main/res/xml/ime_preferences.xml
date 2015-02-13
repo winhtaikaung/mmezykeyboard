@@ -15,12 +15,25 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-        android:title="@string/settings_name">
+
+    android:title="@string/settings_name">
 
     <PreferenceCategory android:title="Settings" >
         <EditTextPreference
             android:title="Test Keyboard"
             android:summary="Type Text to taste Your Loli keyboard"
             android:key="prefUserPassword"/>
+        <Preference
+            android:key="ime_setting"
+            android:title="Enable Loli Keyboard"
+            android:summary="Enable Loli Keyboard"
+
+            >
+            </Preference>
+
+        <Preference android:key="use_ime"
+            android:title="Select Lolikeyboard"
+            android:summary="Select Loli Keyboard To Enjoy Typing">
+            </Preference>
     </PreferenceCategory>
 </PreferenceScreen>

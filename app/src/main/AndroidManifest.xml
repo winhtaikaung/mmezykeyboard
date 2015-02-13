@@ -25,7 +25,7 @@
     </compatible-screens>
     <application android:label="@string/ime_name"
         android:icon="@drawable/ic_launcher"
-
+        android:theme="@style/AppTheme"
         >
         <service android:name="com.example.android.lolikeyboard.LoliKeyboard"
                 android:permission="android.permission.BIND_INPUT_METHOD">

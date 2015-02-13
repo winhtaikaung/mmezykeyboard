@@ -85,10 +85,14 @@ ADDED from AndroidManifest.xml:24:9
 		ADDED from AndroidManifest.xml:24:45
 application
 ADDED from AndroidManifest.xml:26:5
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
 	android:label
 		ADDED from AndroidManifest.xml:26:18
 	android:icon
 		ADDED from AndroidManifest.xml:27:9
+	android:theme
+		ADDED from AndroidManifest.xml:28:9
 service#com.example.android.lolikeyboard.LoliKeyboard
 ADDED from AndroidManifest.xml:30:9
 	android:permission
@@ -123,3 +127,10 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:44:17
 	android:name
 		ADDED from AndroidManifest.xml:44:27
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0

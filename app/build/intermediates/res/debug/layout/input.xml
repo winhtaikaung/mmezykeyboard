@@ -24,6 +24,7 @@
         android:background="@color/key_background"
         android:shadowRadius="0"
         android:keyTextSize="20dp"
+
         android:shadowColor="@android:color/transparent"
         android:keyBackground="@color/key_background"
         android:keyTextColor="@color/key_textcolor"
