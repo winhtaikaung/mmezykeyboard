@@ -23,6 +23,20 @@
         <dex dex="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/pre-dexed/debug/classes-7a932eb8dd2863f983f430fe5ce046da5b9fbf51.jar" />
     </item>
     <item
+        jar="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.6.2.4/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f1af60c5931397ca9c9b1bac0da85772779a4b73">
+        <dex dex="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/pre-dexed/debug/classes-0c469b961e90b4f7bf6fd0746902bc52704aed6c.jar" />
+    </item>
+    <item
+        jar="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-5c3174857d46aae45e77253faa664d49dd709c25.jar" />
+    </item>
+    <item
         jar="/home/jr/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="19.1.0"
@@ -35,13 +49,6 @@
         revision="19.1.0"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
         <dex dex="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/pre-dexed/debug/classes-b6bddad0b447d457adf4b94f353fe5c80071bc13.jar" />
-    </item>
-    <item
-        jar="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-5c3174857d46aae45e77253faa664d49dd709c25.jar" />
     </item>
 
 </items>

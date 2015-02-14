@@ -32,6 +32,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.afollestad.materialdialogs.MaterialDialog;
 import com.android.inputmethodcommon.InputMethodSettingsFragment;
 
 
@@ -129,7 +130,11 @@ public class ImePreferences extends PreferenceActivity {
             abt_pref.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                 @Override
                 public boolean onPreferenceClick(Preference preference) {
-                    Toast.makeText(getActivity(),"About us",Toast.LENGTH_LONG).show();
+                    new MaterialDialog.Builder(getActivity())
+                            .title("About")
+                            .content("This Keyboard is still in beta mode \nDeveloped By \t Win Htaik Aung \nIcon Design : Thura Myo Nyunt")
+                            .positiveText("OK")
+                            .show();
                     return false;
                 }
             });
