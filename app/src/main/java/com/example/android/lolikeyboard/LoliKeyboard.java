@@ -16,6 +16,7 @@
 
 package com.example.android.lolikeyboard;
 
+import android.graphics.Typeface;
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
@@ -29,6 +30,7 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
 import android.view.inputmethod.InputMethodManager;
 import android.view.inputmethod.InputMethodSubtype;
+import android.widget.Toast;
 
 
 import java.util.ArrayList;
@@ -89,6 +91,7 @@ public class LoliKeyboard extends InputMethodService
     @Override public void onCreate() {
         super.onCreate();
         mInputMethodManager = (InputMethodManager)getSystemService(INPUT_METHOD_SERVICE);
+        //Toast.makeText(getApplicationContext(),""+mInputMethodManager.+"",Toast.LENGTH_LONG).show();
 
         mWordSeparators = getResources().getString(R.string.word_separators);
     }
@@ -125,6 +128,7 @@ public class LoliKeyboard extends InputMethodService
      * a configuration change.
      */
     @Override public View onCreateInputView() {
+
         mInputView = (LatinKeyboardView) getLayoutInflater().inflate(
                 R.layout.input, null);
         mInputView.setOnKeyboardActionListener(this);
@@ -165,6 +169,7 @@ public class LoliKeyboard extends InputMethodService
         mPredictionOn = false;
         mCompletionOn = false;
         mCompletions = null;
+
         
         // We are now going to initialize our state based on the type of
         // text being edited.
@@ -263,6 +268,7 @@ public class LoliKeyboard extends InputMethodService
     @Override public void onStartInputView(EditorInfo attribute, boolean restarting) {
         super.onStartInputView(attribute, restarting);
         // Apply the selected keyboard to the input view.
+
         mInputView.setKeyboard(mCurKeyboard);
         mInputView.closing();
         final InputMethodSubtype subtype = mInputMethodManager.getCurrentInputMethodSubtype();

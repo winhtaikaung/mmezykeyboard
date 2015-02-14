@@ -30,6 +30,7 @@ import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.android.inputmethodcommon.InputMethodSettingsFragment;
 
@@ -53,6 +54,8 @@ public class ImePreferences extends PreferenceActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        
 
         // We overwrite the title of the activity, as the default one is "Voice Search".
        // setTitle(R.string.settings_name);
@@ -119,6 +122,15 @@ public class ImePreferences extends PreferenceActivity {
                 public boolean onPreferenceClick(Preference preference) {
                     mImeManager.showInputMethodPicker();
                     return true;
+                }
+            });
+
+            Preference abt_pref=(Preference) findPreference("abt");
+            abt_pref.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+                @Override
+                public boolean onPreferenceClick(Preference preference) {
+                    Toast.makeText(getActivity(),"About us",Toast.LENGTH_LONG).show();
+                    return false;
                 }
             });
 
