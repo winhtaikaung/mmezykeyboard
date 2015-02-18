@@ -79,7 +79,9 @@ public class LoliKeyboard extends InputMethodService
     private LatinKeyboard mQwertyShiftedKeyboard;
     private LatinKeyboard mQwertymmKeyboard;
     private LatinKeyboard mQwertymmShiftedKeyboard;
-    
+    private LatinKeyboard mQwertyshaKeyboard;
+    private LatinKeyboard mQwertyshaShiftKeyboard;
+
     private LatinKeyboard mCurKeyboard;
     
     private String mWordSeparators;
@@ -115,10 +117,14 @@ public class LoliKeyboard extends InputMethodService
         mSymbolsKeyboard = new LatinKeyboard(this, R.xml.symbols);
         mSymbolsShiftedKeyboard = new LatinKeyboard(this, R.xml.symbols_shift);
         //implementing Myanmar Keyboard
-        mQwertymmKeyboard=new LatinKeyboard(this,R.xml.qwerty_mm);
-        mQwertymmShiftedKeyboard=new LatinKeyboard(this,R.xml.qwerty_shift_mm);
-        mSymbolmmkeyboard=new LatinKeyboard(this,R.xml.symbols_mm);
+        mQwertymmKeyboard=new LatinKeyboard(this,R.xml.qwerty_my);
+        mQwertymmShiftedKeyboard=new LatinKeyboard(this,R.xml.qwerty_shift_my);
+        mSymbolmmkeyboard=new LatinKeyboard(this,R.xml.symbols_my);
         mSymbolmmShiftedkeyboard=new LatinKeyboard(this,R.xml.symbols_shift_mm);
+
+        /*Addin Shan Keyboard */
+        mQwertyshaKeyboard=new LatinKeyboard(this,R.xml.qwerty_sha);
+        mQwertyshaShiftKeyboard =new LatinKeyboard(this,R.xml.qwerty_shift_sha);
     }
     
     /**
@@ -132,7 +138,8 @@ public class LoliKeyboard extends InputMethodService
         mInputView = (LatinKeyboardView) getLayoutInflater().inflate(
                 R.layout.input, null);
         mInputView.setOnKeyboardActionListener(this);
-        mInputView.setKeyboard(mQwertyKeyboard);
+       // mInputView.setKeyboard(mQwertyKeyboard);
+        mInputView.setKeyboard(mQwertyshaKeyboard);
         mInputView.setPreviewEnabled(true);
         return mInputView;
     }
