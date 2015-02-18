@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SoftKeyboard.iml" filepath="$PROJECT_DIR$/SoftKeyboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mmezykeyboard.iml" filepath="$PROJECT_DIR$/mmezykeyboard.iml" />
     </modules>
   </component>
 </project>

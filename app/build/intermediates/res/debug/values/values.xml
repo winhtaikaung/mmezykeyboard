@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.6.2.4/res/values/values.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.6.2.4/res/values/values.xml -->
     <eat-comment/>
     <attr format="color" name="md_background_color"/>
     <attr format="reference" name="md_btn_negative_selector"/>
@@ -23,7 +23,7 @@
     <attr format="color" name="md_neutral_color"/>
     <attr format="color" name="md_positive_color"/>
     <attr format="color" name="md_title_color"/>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="string" name="title"/>
     <bool name="abc_action_bar_embed_tabs">true</bool>
@@ -50,13 +50,13 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="candidate_background">#0000</color>
     <color name="candidate_normal">#ffffff</color>
     <color name="candidate_other">#0000</color>
     <color name="candidate_recommended">#FFE35900</color>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
@@ -66,11 +66,11 @@
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="key_background">#ffffff</color>
     <color name="key_textcolor">#424242</color>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="link_text_material_dark">@color/material_deep_teal_200</color>
     <color name="link_text_material_light">@color/material_deep_teal_500</color>
@@ -79,16 +79,16 @@
     <color name="material_blue_grey_950">#ff21272b</color>
     <color name="material_deep_teal_200">#ff80cbc4</color>
     <color name="material_deep_teal_500">#ff009688</color>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="material_teal">#00d6cd</color>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.6.2.4/res/values/values.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.6.2.4/res/values/values.xml -->
     <eat-comment/>
     <color name="md_divider_black">#10000000</color>
     <color name="md_divider_white">#10FFFFFF</color>
     <color name="md_material_blue_600">#1E88E5</color>
     <color name="md_material_blue_800">#1565C0</color>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_dark_material_dark">#ff000000</color>
     <color name="primary_dark_material_light">#ff757575</color>
@@ -167,11 +167,11 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="candidate_font_height">16sp</dimen>
     <dimen name="candidate_vertical_padding">6sp</dimen>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
@@ -179,10 +179,10 @@
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="key_height">45dip</dimen>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.6.2.4/res/values/values.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.6.2.4/res/values/values.xml -->
     <eat-comment/>
     <dimen name="md_action_corner_radius">2dp</dimen>
     <dimen name="md_button_frame_vertical_padding">8dp</dimen>
@@ -208,7 +208,7 @@
     <dimen name="md_title_frame_margin_bottom">16dp</dimen>
     <dimen name="md_title_frame_margin_bottom_list">4dp</dimen>
     <dimen name="md_title_textsize">20sp</dimen>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
@@ -236,7 +236,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="general_category">General</string>
     <string name="ime_name">Loli Keyboard</string>
@@ -249,12 +249,12 @@
     <string name="select_language">Select input languages</string>
     <string name="settings_name">Loli Keyboard Settings</string>
     <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;>_+=|"</string>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/src/main/res/values/style.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/src/main/res/values/style.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
 
         </style>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance">
         <item name="android:textColor">?android:textColorPrimary</item>
@@ -1008,7 +1008,7 @@
         <item name="android:scaleType">center</item>
         <item name="android:background">?attr/selectableItemBackground</item>
     </style>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/src/main/res/values/style.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/src/main/res/values/style.xml -->
     <eat-comment/>
     <style name="KeyboardKeyOverlay">
         <item name="android:background">@android:color/transparent</item>
@@ -1025,7 +1025,7 @@
 
 
     </style>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.6.2.4/res/values/values.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.6.2.4/res/values/values.xml -->
     <eat-comment/>
     <style name="MD_ActionButton">
         <item name="android:layout_width">wrap_content</item>
@@ -1075,7 +1075,7 @@
         <item name="md_btn_neutral_selector">@drawable/md_btn_selector</item>
         <item name="md_btn_negative_selector">@drawable/md_btn_selector</item>
     </style>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
@@ -1308,7 +1308,7 @@
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>
     <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Light" parent="Base.ThemeOverlay.AppCompat.Light"/>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.6.2.4/res/values/values.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.6.2.4/res/values/values.xml -->
     <eat-comment/>
     <style name="Theme_Light_Dialog" parent="android:Theme.Light">
         <item name="android:windowFrame">@null</item>
@@ -1317,7 +1317,7 @@
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
     </style>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/greenlikeorange/cont/mmezykeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar"/>
     <style name="Widget.AppCompat.ActionBar.Solid" parent="Base.Widget.AppCompat.ActionBar.Solid"/>
