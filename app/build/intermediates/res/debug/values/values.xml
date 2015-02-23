@@ -69,7 +69,7 @@
     <!-- From: file:/home/jr/AndroidStudioProjects/mmkeyboard/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="key_background">#ffffff</color>
-    <color name="key_textcolor">#424242</color>
+    <color name="key_textcolor">#ff6d6e72</color>
     <!-- From: file:/home/jr/AndroidStudioProjects/mmkeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="link_text_material_dark">@color/material_deep_teal_200</color>
