@@ -99,4 +99,4 @@
                 android:keyWidth="20%p" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>
-    <!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/src/main/res/xml/qwerty.xml -->
+    <!-- From: file:/home/jr/AndroidStudioProjects/mmkeyboard/app/src/main/res/xml/qwerty.xml -->
