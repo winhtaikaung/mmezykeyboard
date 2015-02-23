@@ -1567,6 +1567,7 @@ containing a value of this type.
         public static final int title=0x7f090027;
         public static final int titleBarDivider=0x7f090043;
         public static final int titleFrame=0x7f090042;
+        public static final int toolbar=0x7f090053;
         public static final int up=0x7f090008;
         public static final int useLogo=0x7f090012;
         public static final int withText=0x7f09001a;
@@ -1605,7 +1606,8 @@ containing a value of this type.
         public static final int md_listitem=0x7f03001a;
         public static final int md_listitem_multichoice=0x7f03001b;
         public static final int md_listitem_singlechoice=0x7f03001c;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001d;
+        public static final int pref_with_actionbar=0x7f03001d;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001e;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f0b0000;

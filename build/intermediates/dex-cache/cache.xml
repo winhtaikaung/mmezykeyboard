@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/home/jr/.gradle/caches/modules-2/files-2.1/com.github.japgolly.android/svg-android/2.0.6/9b54af90b1718548570f6c6c44d8daad9e286dfd/svg-android-2.0.6.jar"
+        jar="/home/jr/AndroidStudioProjects/mmkeyboard/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
         jumboMode="false"
-        revision="19.1.0"
-        sha1="9b54af90b1718548570f6c6c44d8daad9e286dfd">
-        <dex dex="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/pre-dexed/debug/svg-android-2.0.6-2d771faeb8ee93fc7f292a6cae4a63bce618b996.jar" />
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/jr/AndroidStudioProjects/mmkeyboard/app/build/intermediates/pre-dexed/debug/classes-25c8bca4c148c6e867e44d0d68a451da40890393.jar" />
     </item>
     <item
         jar="/home/jr/.gradle/caches/modules-2/files-2.1/com.github.japgolly.android/svg-android/2.0.6/9b54af90b1718548570f6c6c44d8daad9e286dfd/svg-android-2.0.6.jar"
@@ -14,6 +14,48 @@
         revision="21.1.1"
         sha1="9b54af90b1718548570f6c6c44d8daad9e286dfd">
         <dex dex="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/pre-dexed/debug/svg-android-2.0.6-2d771faeb8ee93fc7f292a6cae4a63bce618b996.jar" />
+    </item>
+    <item
+        jar="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-5c3174857d46aae45e77253faa664d49dd709c25.jar" />
+    </item>
+    <item
+        jar="/home/jr/AndroidStudioProjects/mmkeyboard/app/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.6.2.4/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f1af60c5931397ca9c9b1bac0da85772779a4b73">
+        <dex dex="/home/jr/AndroidStudioProjects/mmkeyboard/app/build/intermediates/pre-dexed/debug/classes-96a8463f174ff15cc45f8e208a49572df3c18c80.jar" />
+    </item>
+    <item
+        jar="/home/jr/AndroidStudioProjects/mmkeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/jr/AndroidStudioProjects/mmkeyboard/app/build/intermediates/pre-dexed/debug/classes-13380c78a516d1c18f9203bacfbe4d50e59dc2dc.jar" />
+    </item>
+    <item
+        jar="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/pre-dexed/debug/classes-b6bddad0b447d457adf4b94f353fe5c80071bc13.jar" />
+    </item>
+    <item
+        jar="/home/jr/.gradle/caches/modules-2/files-2.1/com.github.japgolly.android/svg-android/2.0.6/9b54af90b1718548570f6c6c44d8daad9e286dfd/svg-android-2.0.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9b54af90b1718548570f6c6c44d8daad9e286dfd">
+        <dex dex="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/pre-dexed/debug/svg-android-2.0.6-2d771faeb8ee93fc7f292a6cae4a63bce618b996.jar" />
+    </item>
+    <item
+        jar="/home/jr/AndroidStudioProjects/mmkeyboard/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/jr/AndroidStudioProjects/mmkeyboard/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-debd8d944c979d1305cc7846cd2cc261231a286f.jar" />
     </item>
     <item
         jar="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
@@ -30,11 +72,18 @@
         <dex dex="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/pre-dexed/debug/classes-0c469b961e90b4f7bf6fd0746902bc52704aed6c.jar" />
     </item>
     <item
-        jar="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jar="/home/jr/.gradle/caches/modules-2/files-2.1/com.github.japgolly.android/svg-android/2.0.6/9b54af90b1718548570f6c6c44d8daad9e286dfd/svg-android-2.0.6.jar"
         jumboMode="false"
-        revision="19.1.0"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-5c3174857d46aae45e77253faa664d49dd709c25.jar" />
+        revision="21.1.2"
+        sha1="9b54af90b1718548570f6c6c44d8daad9e286dfd">
+        <dex dex="/home/jr/AndroidStudioProjects/mmkeyboard/app/build/intermediates/pre-dexed/debug/svg-android-2.0.6-2d771faeb8ee93fc7f292a6cae4a63bce618b996.jar" />
+    </item>
+    <item
+        jar="/home/jr/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/jr/AndroidStudioProjects/mmkeyboard/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-1717194e60c50c2f14bf21d409522eed2ece7e8e.jar" />
     </item>
     <item
         jar="/home/jr/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
@@ -42,13 +91,6 @@
         revision="19.1.0"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
         <dex dex="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-1717194e60c50c2f14bf21d409522eed2ece7e8e.jar" />
-    </item>
-    <item
-        jar="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="/home/jr/AndroidStudioProjects/SoftKeyboard/app/build/intermediates/pre-dexed/debug/classes-b6bddad0b447d457adf4b94f353fe5c80071bc13.jar" />
     </item>
 
 </items>
