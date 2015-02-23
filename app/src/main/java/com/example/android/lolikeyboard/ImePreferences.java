@@ -21,7 +21,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
-import android.provider.Settings;
 import android.support.v7.widget.Toolbar;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
@@ -30,7 +29,6 @@ import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.android.inputmethodcommon.InputMethodSettingsFragment;
@@ -96,7 +94,10 @@ public class ImePreferences extends PreferenceActivity {
         mImeManager=(InputMethodManager) getApplicationContext().getSystemService(INPUT_METHOD_SERVICE);
     }
 
-
+    @Override
+    protected boolean isValidFragment(String fragmentName) {
+        return Settings.class.getName().equals(fragmentName);
+    }
 
     public static class Settings extends InputMethodSettingsFragment {
         @Override

@@ -1,3 +1,4 @@
+
 apply plugin: 'android'
 
 android {
@@ -7,6 +8,7 @@ android {
     defaultConfig {
         applicationId "com.epicmyanmar.lolikeyboard"
         minSdkVersion 8
+        targetSdkVersion 21
         versionCode 1
         versionName "1.0"
     }
