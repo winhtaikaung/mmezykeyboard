@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.epicmyanmar.lolikeyboard.test">
 
-    <uses-sdk android:minSdkVersion="1" android:targetSdkVersion="1" />
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="21" />
 
     <application>
         <uses-library android:name="android.test.runner" />

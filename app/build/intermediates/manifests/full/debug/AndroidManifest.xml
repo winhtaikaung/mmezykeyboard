@@ -4,6 +4,10 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
     <supports-screens
         android:anyDensity="true"
         android:compatibleWidthLimitDp="3200"
@@ -47,7 +51,8 @@
 
     <application
         android:icon="@drawable/ic_launcher"
-        android:label="@string/ime_name" >
+        android:label="@string/ime_name"
+        android:theme="@style/AppTheme" >
         <service
             android:name="com.example.android.lolikeyboard.LoliKeyboard"
             android:permission="android.permission.BIND_INPUT_METHOD" >

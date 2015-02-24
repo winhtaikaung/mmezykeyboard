@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
     android:background="@color/key_background"
     >
 
@@ -11,12 +10,26 @@
     the parent KeyboardView if not defined here. -->
     <com.example.android.lolikeyboard.LatinKeyboardView
         android:id="@+id/keyboardView"
-        android:background="@android:color/transparent"
+        android:background="@color/key_background"
+        android:shadowRadius="0"
+        android:keyTextSize="23dp"
+
+        android:shadowColor="#ff0dffe6"
+        android:keyBackground="@color/key_background"
+        android:keyTextColor="@color/key_textcolor"
+        android:paddingBottom="5dp"
+
         android:layout_alignParentBottom="true"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        />
 
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="!" style="@style/KeyboardKeyOverlay"  android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="10"/>
+        </LinearLayout>
     <!--             android:keyPreviewLayout="@layout/keyboard_key_preview"
     android:popupLayout="@layout/keyboard_popup_keyboard"
     android:keyTextSize="22sp" -->
@@ -29,4 +42,4 @@
         android:layout_marginLeft="8dp"
         android:clickable="true"
         /-->
-</LinearLayout><!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/src/main/res/layout/keyboard_popup_keyboard.xml -->
+</FrameLayout><!-- From: file:/home/jr/AndroidStudioProjects/mmkeyboard/app/src/main/res/layout/keyboard_popup_keyboard.xml -->

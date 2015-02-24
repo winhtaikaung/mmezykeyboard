@@ -28,15 +28,15 @@
         android:icon="@drawable/icon_en_us"
         android:imeSubtypeLocale="en_US"
         android:imeSubtypeMode="keyboard" />
-    <!--subtype
+    <!--<subtype
         android:label="@string/label_subtype_en_GB"
         android:icon="@drawable/icon_en_gb"
         android:imeSubtypeLocale="en_GB"
-        android:imeSubtypeMode="keyboard" /-->
-    <!--subtype
+        android:imeSubtypeMode="keyboard" />
+    <subtype
         android:label="@string/label_subtype_generic"
         android:icon="@drawable/icon_en_gb"
-        android:imeSubtypeLocale="my_MM"
-        android:imeSubtypeMode="keyboard" /-->
+        android:imeSubtypeLocale=""
+        android:imeSubtypeMode="keyboard" />-->
 </input-method>
-<!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/src/main/res/xml/method.xml -->
+<!-- From: file:/home/jr/AndroidStudioProjects/mmkeyboard/app/src/main/res/xml/method.xml -->

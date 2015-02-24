@@ -15,12 +15,50 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-        android:title="@string/settings_name">
 
+    android:title="@string/settings_name">
+    <PreferenceCategory android:title="Version" >
+        <Preference
+            android:key="version"
+            android:title="Version"
+            android:summary="(0.1) Beta"
+
+            >
+
+    </Preference>
+    </PreferenceCategory>
     <PreferenceCategory android:title="Settings" >
+
+        <Preference
+            android:key="ime_setting"
+            android:title="Enable Loli Keyboard"
+            android:summary="Enable Loli Keyboard"
+
+            >
+            </Preference>
+
+        <Preference android:key="use_ime"
+            android:title="Select Lolikeyboard"
+            android:summary="Select Loli Keyboard To Enjoy Typing">
+            </Preference>
+        <SwitchPreference android:key="vib_press"
+            android:title="Vibrate On Press"
+                        
+            android:summary="Select Loli Keyboard To Enjoy Typing">
+        </SwitchPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Type to Test" >
         <EditTextPreference
             android:title="Test Keyboard"
             android:summary="Type Text to taste Your Loli keyboard"
             android:key="prefUserPassword"/>
     </PreferenceCategory>
+    <PreferenceCategory android:title="About" >
+        <Preference android:key="abt"
+            android:title="About us"
+            android:summary="About us"
+            ></Preference>
+    </PreferenceCategory>
+
+
 </PreferenceScreen>

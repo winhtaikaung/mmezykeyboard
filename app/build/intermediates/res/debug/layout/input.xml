@@ -23,8 +23,13 @@
         android:id="@+id/keyboard"
         android:background="@color/key_background"
         android:shadowRadius="0"
-        android:keyTextSize="20dp"
-        android:shadowColor="@android:color/transparent"
+        android:keyTextSize="23dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:keyPreviewOffset="12dp"
+    android:keyPreviewLayout="@layout/kbpreview"
+
+        android:shadowColor="#ff0dffe6"
         android:keyBackground="@color/key_background"
         android:keyTextColor="@color/key_textcolor"
         android:paddingBottom="5dp"
@@ -32,5 +37,6 @@
         android:layout_alignParentBottom="true"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+
         />
-<!-- From: file:/home/jr/AndroidStudioProjects/SoftKeyboard/app/src/main/res/layout/input.xml -->
+<!-- From: file:/home/jr/AndroidStudioProjects/mmkeyboard/app/src/main/res/layout/input.xml -->
