@@ -4,3 +4,8 @@ Icons/
 
 # Ignore Gradle GUI config
 gradle-app.setting
+.gradle
+/.idea/workspace.xml
+/.idea/libraries
+/build
+*iml
