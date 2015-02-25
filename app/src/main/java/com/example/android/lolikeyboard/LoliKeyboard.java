@@ -677,9 +677,6 @@ public class LoliKeyboard extends InputMethodService
             mSymbolmmkeyboard.setShifted(false);
         }
 
-
-
-
     }
     
     private void handleCharacter(int primaryCode, int[] keyCodes) {
