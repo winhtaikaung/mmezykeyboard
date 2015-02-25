@@ -16,9 +16,11 @@
 
 package com.example.android.lolikeyboard;
 
+import android.content.Context;
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
+import android.os.Vibrator;
 import android.text.InputType;
 import android.text.method.MetaKeyKeyListener;
 import android.view.KeyCharacterMap;
@@ -763,10 +765,20 @@ public class LoliKeyboard extends InputMethodService
     }
 
     public void swipeUp() {
+
     }
-    
+
     public void onPress(int primaryCode) {
 
+
+        boolean isvbrate=MySharedPreferences.getInstance(getApplication()).getVibrate();
+        Vibrator v = (Vibrator) this.getSystemService(Context.VIBRATOR_SERVICE);
+       // Toast.makeText(getApplication(), "" + isvbrate + "", Toast.LENGTH_LONG).show();
+        if(isvbrate) {
+            // Vibrate for 500 milliseconds
+            v.vibrate(50);
+
+        }
     }
     
     public void onRelease(int primaryCode) {

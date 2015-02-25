@@ -21,6 +21,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
+import android.preference.SwitchPreference;
 import android.support.v7.widget.Toolbar;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
@@ -40,6 +41,7 @@ import com.android.inputmethodcommon.InputMethodSettingsFragment;
 public class ImePreferences extends PreferenceActivity {
     Toolbar bar;
     static InputMethodManager mImeManager;
+
     @Override
     public Intent getIntent() {
         final Intent modIntent = new Intent(super.getIntent());
@@ -109,6 +111,7 @@ public class ImePreferences extends PreferenceActivity {
             // Load the preferences from an XML resource
             addPreferencesFromResource(R.xml.ime_preferences);
 
+
             Preference go_ime=(Preference) findPreference("ime_setting");
             go_ime.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                 @Override
@@ -136,6 +139,28 @@ public class ImePreferences extends PreferenceActivity {
                             .content("This Keyboard is still in beta mode \nDeveloped By \t Win Htaik Aung \nIcon Design : Thura Myo Nyunt")
                             .positiveText("OK")
                             .show();
+                    return false;
+                }
+            });
+
+            SwitchPreference vib_press=(SwitchPreference) findPreference("vib_press");
+
+            vib_press.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+                @Override
+                public boolean onPreferenceClick(Preference preference) {
+
+                    boolean restoredvalue = MySharedPreferences.getInstance(getActivity()).getVibrate();
+                    if (!restoredvalue) {
+                        MySharedPreferences.getInstance(getActivity()).setVibrate(true);
+
+
+
+                    } else {
+                        MySharedPreferences.getInstance(getActivity()).setVibrate(false);
+
+
+                    }
+
                     return false;
                 }
             });

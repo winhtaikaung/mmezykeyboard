@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 
         package="com.example.android.lolikeyboard">
+    <uses-permission android:name="android.permission.VIBRATE"/>
     <supports-screens android:resizeable="true"
         android:smallScreens="true"
         android:normalScreens="true"

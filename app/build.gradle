@@ -9,8 +9,8 @@ android {
         applicationId "com.epicmyanmar.lolikeyboard"
         minSdkVersion 8
         targetSdkVersion 21
-        versionCode 1
-        versionName "1.0"
+        versionCode 0
+        versionName "0.1"
     }
 
     buildTypes {
