@@ -31,6 +31,7 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
 import android.view.inputmethod.InputMethodManager;
 import android.view.inputmethod.InputMethodSubtype;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -634,9 +635,8 @@ public class LoliKeyboard extends InputMethodService
         if (mQwertyKeyboard == currentKeyboard) {
             // Alphabet keyboard
            // checkToggleCapsLock();
-            mInputView.setKeyboard(mQwertyShiftedKeyboard);
-            mInputView.setShifted(true);
-            //mInputView.setShifted(mCapsLock || !mInputView.isShifted());
+            checkToggleCapsLock();
+            mInputView.setShifted(mCapsLock || !mInputView.isShifted());
         }else if(mQwertyShiftedKeyboard==currentKeyboard){
             mInputView.setKeyboard(mQwertyKeyboard);
         }
@@ -653,6 +653,7 @@ public class LoliKeyboard extends InputMethodService
         }
         //Changes made by Win Htai kAUng change keyboard layout
         else if (currentKeyboard == mQwertymmKeyboard) {
+
             mQwertymmKeyboard.setShifted(true);
             mInputView.setKeyboard(mQwertymmShiftedKeyboard);
             mQwertymmShiftedKeyboard.setShifted(true);
@@ -765,7 +766,7 @@ public class LoliKeyboard extends InputMethodService
     }
 
     public void swipeUp() {
-
+        Toast.makeText(getApplication(), "Swipe Up", Toast.LENGTH_LONG).show();
     }
 
     public void onPress(int primaryCode) {
@@ -773,7 +774,7 @@ public class LoliKeyboard extends InputMethodService
 
         boolean isvbrate=MySharedPreferences.getInstance(getApplication()).getVibrate();
         Vibrator v = (Vibrator) this.getSystemService(Context.VIBRATOR_SERVICE);
-       // Toast.makeText(getApplication(), "" + isvbrate + "", Toast.LENGTH_LONG).show();
+       //
         if(isvbrate) {
             // Vibrate for 500 milliseconds
             v.vibrate(50);
