@@ -112,10 +112,10 @@ public class LoliKeyboard extends InputMethodService
         mSymbolsKeyboard = new LatinKeyboard(this, R.xml.symbols);
         mSymbolsShiftedKeyboard = new LatinKeyboard(this, R.xml.symbols_shift);
         //implementing Myanmar Keyboard
-        mQwertymmKeyboard=new LatinKeyboard(this,R.xml.qwerty_mm);
+        mQwertymmKeyboard=new LatinKeyboard(this,R.xml.qwerty_my);
         mQwertymmShiftedKeyboard=new LatinKeyboard(this,R.xml.qwerty_shift_mm);
-        mSymbolmmkeyboard=new LatinKeyboard(this,R.xml.symbols_mm);
-        mSymbolmmShiftedkeyboard=new LatinKeyboard(this,R.xml.symbols_shift_mm);
+        mSymbolmmkeyboard=new LatinKeyboard(this,R.xml.symbols_my);
+        mSymbolmmShiftedkeyboard=new LatinKeyboard(this,R.xml.symbols_shift_my);
     }
     
     /**
