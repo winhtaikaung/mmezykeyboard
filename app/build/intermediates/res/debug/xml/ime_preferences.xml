@@ -53,6 +53,12 @@
             android:summary="Type Text to taste Your Loli keyboard"
             android:key="prefUserPassword"/>
     </PreferenceCategory>
+    <PreferenceCategory android:title="Feed Back" >
+        <Preference android:key="fedback"
+            android:title="Feed Back"
+            android:summary="Help us by Giving feed Back"
+            ></Preference>
+    </PreferenceCategory>
     <PreferenceCategory android:title="About" >
         <Preference android:key="abt"
             android:title="About us"

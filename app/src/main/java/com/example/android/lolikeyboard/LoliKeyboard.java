@@ -16,7 +16,6 @@
 
 package com.example.android.lolikeyboard;
 
-import android.graphics.Typeface;
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
@@ -30,8 +29,6 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
 import android.view.inputmethod.InputMethodManager;
 import android.view.inputmethod.InputMethodSubtype;
-import android.widget.Toast;
-
 
 import java.util.ArrayList;
 import java.util.List;
@@ -634,7 +631,7 @@ public class LoliKeyboard extends InputMethodService
         Keyboard currentKeyboard = mInputView.getKeyboard();
         if (mQwertyKeyboard == currentKeyboard) {
             // Alphabet keyboard
-            //checkToggleCapsLock();
+           // checkToggleCapsLock();
             mInputView.setKeyboard(mQwertyShiftedKeyboard);
             mInputView.setShifted(true);
             //mInputView.setShifted(mCapsLock || !mInputView.isShifted());
@@ -774,4 +771,6 @@ public class LoliKeyboard extends InputMethodService
     
     public void onRelease(int primaryCode) {
     }
+
+
 }

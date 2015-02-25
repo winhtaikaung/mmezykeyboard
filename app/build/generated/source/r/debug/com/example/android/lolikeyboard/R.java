@@ -1889,15 +1889,16 @@ containing a value of this type.
         public static final int ime_preferences=0x7f050000;
         public static final int method=0x7f050001;
         public static final int number_popup=0x7f050002;
-        public static final int qwerty=0x7f050003;
-        public static final int qwerty_mm=0x7f050004;
-        public static final int qwerty_mm_symbols=0x7f050005;
-        public static final int qwerty_shift=0x7f050006;
-        public static final int qwerty_shift_mm=0x7f050007;
-        public static final int symbols=0x7f050008;
-        public static final int symbols_mm=0x7f050009;
-        public static final int symbols_shift=0x7f05000a;
-        public static final int symbols_shift_mm=0x7f05000b;
+        public static final int pop_smileys=0x7f050003;
+        public static final int qwerty=0x7f050004;
+        public static final int qwerty_mm=0x7f050005;
+        public static final int qwerty_mm_symbols=0x7f050006;
+        public static final int qwerty_shift=0x7f050007;
+        public static final int qwerty_shift_mm=0x7f050008;
+        public static final int symbols=0x7f050009;
+        public static final int symbols_mm=0x7f05000a;
+        public static final int symbols_shift=0x7f05000b;
+        public static final int symbols_shift_mm=0x7f05000c;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.
