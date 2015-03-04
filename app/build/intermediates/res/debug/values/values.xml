@@ -220,6 +220,11 @@
     <item name="split_action_bar" type="id"/>
     <item name="up" type="id"/>
     <integer name="abc_max_action_buttons">2</integer>
+    <!-- From: file:/home/jr/AndroidStudioProjects/mmkeyboard/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="OK">OK</string>
+    <!-- From: file:/home/jr/AndroidStudioProjects/mmkeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -238,6 +243,9 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <!-- From: file:/home/jr/AndroidStudioProjects/mmkeyboard/app/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="about_us">About us</string>
+    <string name="choose_lolikeyboard">Select Loli keyboard</string>
+    <string name="enable_lolikeyboard">Enable Loli keyboard</string>
     <string name="general_category">General</string>
     <string name="ime_name">Loli Keyboard</string>
     <string name="label_go_key">Go</string>
@@ -248,6 +256,10 @@
     <string name="language_selection_title">Input languages</string>
     <string name="select_language">Select input languages</string>
     <string name="settings_name">Loli Keyboard Settings</string>
+    <string name="ty">Thuya Myo Nyunt </string>
+    <string name="version_summary">0.1 (Beta)</string>
+    <string name="version_title">Version </string>
+    <string name="wha">Win Htaik Aung</string>
     <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;>_+=|"</string>
     <!-- From: file:/home/jr/AndroidStudioProjects/mmkeyboard/app/src/main/res/values/style.xml -->
     <eat-comment/>

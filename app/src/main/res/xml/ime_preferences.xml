@@ -20,8 +20,8 @@
     <PreferenceCategory android:title="Version" >
         <Preference
             android:key="version"
-            android:title="Version"
-            android:summary="(0.1) Beta"
+            android:title="@string/version_title"
+            android:summary="@string/version_summary"
 
             >
 
@@ -31,15 +31,15 @@
 
         <Preference
             android:key="ime_setting"
-            android:title="Enable Loli Keyboard"
-            android:summary="Enable Loli Keyboard"
+            android:title="@string/enable_lolikeyboard"
+            android:summary="@string/enable_lolikeyboard"
 
             >
             </Preference>
 
         <Preference android:key="use_ime"
-            android:title="Select Lolikeyboard"
-            android:summary="Select Loli Keyboard To Enjoy Typing">
+            android:title="@string/choose_lolikeyboard"
+            android:summary="@string/choose_lolikeyboard">
             </Preference>
         <SwitchPreference android:key="vib_press"
             android:title="Vibrate On Press"
@@ -53,16 +53,16 @@
             android:summary="Type Text to taste Your Loli keyboard"
             android:key="prefUserPassword"/>
     </PreferenceCategory>
-    <PreferenceCategory android:title="Feed Back" >
+    <!--<PreferenceCategory android:title="Feed Back" >
         <Preference android:key="fedback"
             android:title="Feed Back"
             android:summary="Help us by Giving feed Back"
             ></Preference>
-    </PreferenceCategory>
+    </PreferenceCategory>-->
     <PreferenceCategory android:title="About" >
         <Preference android:key="abt"
-            android:title="About us"
-            android:summary="About us"
+            android:title="@string/about_us"
+            android:summary="@string/about_us"
             ></Preference>
     </PreferenceCategory>
 

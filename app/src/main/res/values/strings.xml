@@ -38,4 +38,17 @@
     <string name="language_selection_title">Input languages</string>
     <string name="select_language">Select input languages</string>
     <string name="general_category">General</string>
+
+    <!--Ime list items Text-->
+    <string name="version_title">Version </string>
+    <string name="version_summary">0.1 (Beta)</string>
+    <string name="enable_lolikeyboard">Enable Loli keyboard</string>
+    <string name="choose_lolikeyboard">Select Loli keyboard</string>
+
+    <string name="about_us">About us</string>
+    <string name="wha">Win Htaik Aung</string>
+    <string name="ty">Thuya Myo Nyunt </string>
+    <string name="OK">OK</string>
+
+
 </resources>

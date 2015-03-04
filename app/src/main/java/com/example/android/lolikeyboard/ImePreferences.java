@@ -135,9 +135,9 @@ public class ImePreferences extends PreferenceActivity {
                 @Override
                 public boolean onPreferenceClick(Preference preference) {
                     new MaterialDialog.Builder(getActivity())
-                            .title("About")
-                            .content("This Keyboard is still in beta mode \nDeveloped By \t Win Htaik Aung \nIcon Design : Thura Myo Nyunt")
-                            .positiveText("OK")
+                            .title(getResources().getString(R.string.about_us))
+                            .content("This Keyboard is still in beta mode \nDeveloped & modified By:\n"+getResources().getString(R.string.wha)+"\nIcon Design & Kblayout By:\n "+getResources().getString(R.string.ty)+"")
+                            .positiveText(getResources().getString(R.string.OK))
                             .show();
                     return false;
                 }
