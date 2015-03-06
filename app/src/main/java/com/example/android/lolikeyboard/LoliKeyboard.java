@@ -464,8 +464,7 @@ public class LoliKeyboard extends InputMethodService
      * editor state.
      */
     private void updateShiftKeyState(EditorInfo attr) {
-        if (attr != null 
-                && mInputView != null && mQwertyKeyboard == mInputView.getKeyboard()) {
+        if (attr != null  && mInputView != null && mQwertyKeyboard == mInputView.getKeyboard()) {
             int caps = 0;
             EditorInfo ei = getCurrentInputEditorInfo();
             if (ei != null && ei.inputType != InputType.TYPE_NULL) {
@@ -473,7 +472,13 @@ public class LoliKeyboard extends InputMethodService
             }
             mInputView.setShifted(mCapsLock || caps != 0);
         }
+
+
+
+
+
     }
+
     
     /**
      * Helper to determine if a given character code is alphabetic.
@@ -654,13 +659,12 @@ public class LoliKeyboard extends InputMethodService
         //Changes made by Win Htai kAUng change keyboard layout
         else if (currentKeyboard == mQwertymmKeyboard) {
 
-            mQwertymmKeyboard.setShifted(true);
             mInputView.setKeyboard(mQwertymmShiftedKeyboard);
             mQwertymmShiftedKeyboard.setShifted(true);
         }
 
         else if (currentKeyboard == mQwertymmShiftedKeyboard) {
-            mQwertymmShiftedKeyboard.setShifted(false);
+
             mInputView.setKeyboard(mQwertymmKeyboard);
             mQwertymmKeyboard.setShifted(false);
         }
@@ -689,7 +693,13 @@ public class LoliKeyboard extends InputMethodService
             mComposing.append((char) primaryCode);
             // Here is the algorithims to do
             getCurrentInputConnection().setComposingText(mComposing, 1);
-            updateShiftKeyState(getCurrentInputEditorInfo());
+            if(mQwertymmShiftedKeyboard==mInputView.getKeyboard()){
+                mInputView.setKeyboard(mQwertymmKeyboard);
+                mInputView.setShifted(false);
+            }else{
+                updateShiftKeyState(getCurrentInputEditorInfo());
+            }
+
             updateCandidates();
         } else {
             //making changes to parse By Win Htaik Aung
@@ -697,6 +707,12 @@ public class LoliKeyboard extends InputMethodService
             mComposing.append((char) primaryCode);
             getCurrentInputConnection().commitText(
                     mComposing, 1);
+            if(mQwertymmShiftedKeyboard==mInputView.getKeyboard()){
+                mInputView.setKeyboard(mQwertymmKeyboard);
+                mInputView.setShifted(false);
+            }
+
+
            // getCurrentInputConnection().commitText(
                     //String.valueOf((char) primaryCode), 1);
         }

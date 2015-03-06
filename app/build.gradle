@@ -9,7 +9,7 @@ android {
         applicationId "com.epicmyanmar.lolikeyboard"
         minSdkVersion 8
         targetSdkVersion 21
-        versionCode 1
+        versionCode 3
         versionName "0.1"
     }
 

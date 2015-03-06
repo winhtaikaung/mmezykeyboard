@@ -39,7 +39,7 @@
 </Row>
 
     <Row>
-        <Key android:codes="113" android:keyLabel="q"  android:popupKeyboard="@xml/pop_smileys"   android:keyEdgeFlags="left"/>
+        <Key android:codes="113" android:keyLabel="q"    android:keyEdgeFlags="left"/>
         <Key android:codes="119" android:keyLabel="w" />
         <Key android:codes="101" android:keyLabel="e"/>
         <Key android:codes="114" android:keyLabel="r"/>

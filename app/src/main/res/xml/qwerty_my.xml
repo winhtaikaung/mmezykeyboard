@@ -67,9 +67,9 @@
     </Row>
     
     <Row>
-        <Key android:codes="-1" android:keyIcon="@drawable/sym_keyboard_shift" 
-                android:keyWidth="15%p" android:isModifier="true"
-                android:isSticky="true" android:keyEdgeFlags="left"/>
+        <Key android:codes="-1" android:keyIcon="@drawable/sym_keyboard_shift"  android:iconPreview="@drawable/sym_keyboard_shift"
+            android:keyWidth="15%p" android:isModifier="true"
+            android:isSticky="true" android:keyEdgeFlags="left"/>
         <Key android:codes="4118" android:keyLabel="ဖ"/>
         <Key android:codes="4113" android:keyLabel="ထ"/>
         <Key android:codes="4097" android:keyLabel="ခ"/>
