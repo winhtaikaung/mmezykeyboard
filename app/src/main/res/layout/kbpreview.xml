@@ -8,4 +8,5 @@
     android:text="aa"
     android:textColor="@color/key_background"
     android:gravity="center"
+
     android:textSize="30dp" />

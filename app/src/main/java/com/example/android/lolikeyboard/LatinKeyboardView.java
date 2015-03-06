@@ -17,11 +17,17 @@
 package com.example.android.lolikeyboard;
 
 import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.Typeface;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.Keyboard.Key;
 import android.inputmethodservice.KeyboardView;
 import android.util.AttributeSet;
 import android.view.inputmethod.InputMethodSubtype;
+
+import java.util.List;
 
 public class LatinKeyboardView extends KeyboardView {
 
@@ -49,5 +55,40 @@ public class LatinKeyboardView extends KeyboardView {
         final LatinKeyboard keyboard = (LatinKeyboard)getKeyboard();
        // keyboard.setSpaceIcon(getResources().getDrawable(subtype.getIconResId()));
         invalidateAllKeys();
+    }
+
+    @Override
+    public void onDraw(Canvas canvas) {
+        super.onDraw(canvas);
+        List<Key> keys = getKeyboard().getKeys();
+        Paint paint = new Paint();
+        paint.setTextAlign(Paint.Align.RIGHT);
+        paint.setTextSize(35);
+        paint.setAntiAlias(true);
+        paint.setTypeface(Typeface.create(Typeface.DEFAULT, Typeface.BOLD));
+        paint.setColor(Color.parseColor("#ff6d6e72"));
+        for (Key key : keys) {
+            if (key.label != null) {
+                if (key.label.equals(";)")) {
+                    key.label = new String(Character.toChars(key.codes[0]));
+                    /*Log.d("onDraw", "Length= " + key.label.length()
+                            + " : CharSeq =" + key.label.toString());*/
+                }
+               // if (MyConfig.isShowHintLabel()) {
+                    if (key.popupCharacters != null) {
+                        String popKeyLabel = "";
+                        int xPos = key.x + key.width / 1;
+                        if (key.popupCharacters.length() > 3) {
+                            xPos = key.x + key.width / 2;
+                            popKeyLabel = key.popupCharacters.subSequence(0, 2)
+                                    .toString();
+                        } else {
+                            popKeyLabel = key.popupCharacters.toString();
+                        }
+                        canvas.drawText(popKeyLabel, xPos, key.y + 50, paint);
+                    }
+               // }
+            }
+        }
     }
 }

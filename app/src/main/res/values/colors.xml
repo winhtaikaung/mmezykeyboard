@@ -28,4 +28,15 @@
     <color name="key_textcolor">#ff6d6e72</color>
 
     <color name="material_teal">#00d6cd</color>
+
+    <color name="candidate_theme_normal">#ffffff</color>
+    <color name="candidate_theme_recommended">#FFE35900</color>
+    <color name="candidate_theme_other">#0000</color>
+    <color name="candidate_theme_background">#0000</color>
+    <!--color name="key_theme_background">#424242</color-->
+    <color name="key_theme_background">#ff2b2b2b</color>
+    <!--color name="key_theme_textcolor">#fff7fff8</color-->
+    <color name="key_theme_textcolor">#ffe4e2de</color>
+
+    <color name="material_theme_teal">#00d6cd</color>
 </resources>

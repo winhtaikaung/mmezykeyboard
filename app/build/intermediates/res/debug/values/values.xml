@@ -56,6 +56,10 @@
     <color name="candidate_normal">#ffffff</color>
     <color name="candidate_other">#0000</color>
     <color name="candidate_recommended">#FFE35900</color>
+    <color name="candidate_theme_background">#0000</color>
+    <color name="candidate_theme_normal">#ffffff</color>
+    <color name="candidate_theme_other">#0000</color>
+    <color name="candidate_theme_recommended">#FFE35900</color>
     <!-- From: file:/home/jr/AndroidStudioProjects/mmkeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
@@ -70,6 +74,8 @@
     <eat-comment/>
     <color name="key_background">#ffffff</color>
     <color name="key_textcolor">#ff6d6e72</color>
+    <color name="key_theme_background">#ff2b2b2b</color>
+    <color name="key_theme_textcolor">#ffe4e2de</color>
     <!-- From: file:/home/jr/AndroidStudioProjects/mmkeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="link_text_material_dark">@color/material_deep_teal_200</color>
@@ -82,6 +88,7 @@
     <!-- From: file:/home/jr/AndroidStudioProjects/mmkeyboard/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="material_teal">#00d6cd</color>
+    <color name="material_theme_teal">#00d6cd</color>
     <!-- From: file:/home/jr/AndroidStudioProjects/mmkeyboard/app/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.6.2.4/res/values/values.xml -->
     <eat-comment/>
     <color name="md_divider_black">#10000000</color>
@@ -181,7 +188,7 @@
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
     <!-- From: file:/home/jr/AndroidStudioProjects/mmkeyboard/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
-    <dimen name="key_height">45dip</dimen>
+    <dimen name="key_height">60dip</dimen>
     <!-- From: file:/home/jr/AndroidStudioProjects/mmkeyboard/app/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.6.2.4/res/values/values.xml -->
     <eat-comment/>
     <dimen name="md_action_corner_radius">2dp</dimen>

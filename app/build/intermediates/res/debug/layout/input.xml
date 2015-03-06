@@ -20,23 +20,28 @@
 
 <com.example.android.lolikeyboard.LatinKeyboardView
         xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/keyboard"
-        android:background="@color/key_background"
-        android:shadowRadius="0"
-        android:keyTextSize="23dp"
+    android:id="@+id/keyboard"
+    android:background="@color/key_background"
+    android:shadowRadius="0"
+    android:keyTextSize="25dp"
+
     android:focusable="true"
     android:focusableInTouchMode="true"
     android:keyPreviewOffset="12dp"
     android:keyPreviewLayout="@layout/kbpreview"
 
-        android:shadowColor="#ff0dffe6"
-        android:keyBackground="@color/key_background"
-        android:keyTextColor="@color/key_textcolor"
-        android:paddingBottom="5dp"
+    android:shadowColor="#ff0dffe6"
+    android:keyBackground="@color/key_background"
+    android:keyTextColor="@color/key_textcolor"
+    android:paddingBottom="5dp"
 
+
+    android:popupLayout="@layout/keyboard_popup_keyboard"
         android:layout_alignParentBottom="true"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
         />
+
+
 <!-- From: file:/home/jr/AndroidStudioProjects/mmkeyboard/app/src/main/res/layout/input.xml -->
