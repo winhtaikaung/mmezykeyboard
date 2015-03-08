@@ -26,6 +26,7 @@
     <color name="key_background">#ffffff</color>
     <!--color name="key_textcolor">#fff7fff8</color-->
     <color name="key_textcolor">#ff6d6e72</color>
+    <color name="key_backgroundcolor">#a05b5c5b</color>
 
     <color name="material_teal">#00d6cd</color>
 

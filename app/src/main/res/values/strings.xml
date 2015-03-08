@@ -32,6 +32,11 @@
     <!-- Labels for subtype -->
     <string name="label_subtype_generic">%s</string>
     <string name="label_subtype_en_GB">Loli Keyboard</string>
+    <string name="lang_mon">mon</string>
+    <string name="lang_karen">karen</string>
+    <string name="lang_shan">shan</string>
+
+
 
     <!-- Titles for ImePreference -->
     <string name="settings_name">Loli Keyboard Settings</string>

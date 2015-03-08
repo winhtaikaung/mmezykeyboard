@@ -75,6 +75,8 @@
                 android:keyWidth="15%p" android:keyEdgeFlags="left"/>
         <Key android:codes="-2" android:keyLabel="123" android:keyWidth="10%p"/>
         <Key android:codes="0FE0"
+
+            android:popupKeyboard="@xml/pop_lang"
             android:keyIcon="@drawable/sym_keyboard_lang"
             android:keyWidth="8%p"
 
@@ -83,7 +85,7 @@
 
         <Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space"
                 android:keyWidth="35%p" android:isRepeatable="true"  />
-        <Key android:codes="46,44" android:keyLabel=". ,"
+        <Key android:codes="46,44" android:keyLabel=". ,"  android:popupKeyboard="@xml/web_vital"
                 android:keyWidth="15%p"/>
         <Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return"
                 android:keyWidth="17%p" android:keyEdgeFlags="right"/>

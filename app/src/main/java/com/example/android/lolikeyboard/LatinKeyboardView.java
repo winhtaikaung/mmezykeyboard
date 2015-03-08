@@ -63,7 +63,7 @@ public class LatinKeyboardView extends KeyboardView {
         List<Key> keys = getKeyboard().getKeys();
         Paint paint = new Paint();
         paint.setTextAlign(Paint.Align.RIGHT);
-        paint.setTextSize(35);
+        paint.setTextSize(30);
         paint.setAntiAlias(true);
         paint.setTypeface(Typeface.create(Typeface.DEFAULT, Typeface.BOLD));
         paint.setColor(Color.parseColor("#ff6d6e72"));
@@ -79,7 +79,7 @@ public class LatinKeyboardView extends KeyboardView {
                         String popKeyLabel = "";
                         int xPos = key.x + key.width / 1;
                         if (key.popupCharacters.length() > 3) {
-                            xPos = key.x + key.width / 2;
+                            xPos = key.x + key.width / 1;
                             popKeyLabel = key.popupCharacters.subSequence(0, 2)
                                     .toString();
                         } else {

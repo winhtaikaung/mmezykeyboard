@@ -22,13 +22,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:background="#FFF"
+    android:background="@drawable/bg_rounded_key"
     >
 
     <android.inputmethodservice.KeyboardView
         android:id="@android:id/keyboardView"
 
-        android:background="@color/key_background"
+        android:background="@drawable/bg_rounded_key"
         android:shadowRadius="0"
 
         android:focusable="true"
@@ -37,8 +37,8 @@
         android:keyPreviewLayout="@layout/kbpreview"
 
         android:shadowColor="#ff0dffe6"
-        android:keyBackground="@color/key_background"
-        android:keyTextColor="@color/key_textcolor"
+        android:keyBackground="@drawable/bg_rounded_key"
+        android:keyTextColor="@color/key_background"
         android:paddingBottom="5dp"
         android:keyTextSize="22sp"
 

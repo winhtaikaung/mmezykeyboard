@@ -25,7 +25,7 @@
     android:keyHeight="@dimen/key_height"
 
     >
-    <Row>
+   <!-- <Row>
         <Key android:codes="4161" android:keyLabel="၁" android:keyEdgeFlags="left"/>
         <Key android:codes="4162" android:keyLabel="၂"/>
         <Key android:codes="4163" android:keyLabel="၃"/>
@@ -36,24 +36,24 @@
         <Key android:codes="4168" android:keyLabel="၈"/>
         <Key android:codes="4169" android:keyLabel="၉"/>
         <Key android:codes="4160" android:keyLabel="၀" android:keyEdgeFlags="right"/>
-    </Row>
+    </Row>-->
 
 
     <Row>
-        <Key android:codes="4102" android:keyLabel="ဆ" android:keyEdgeFlags="left" android:popupCharacters="ဆ"/>
-        <Key android:codes="4112" android:keyLabel="တ" android:popupCharacters="တ" />
-        <Key android:codes="4116" android:keyLabel="န" android:popupCharacters="န"  />
-        <Key android:codes="4121" android:keyLabel="မ" android:popupCharacters="မ"/>
-        <Key android:codes="4129" android:keyLabel="အ" android:popupCharacters="အ" />
-        <Key android:codes="4117" android:keyLabel="ပ"  android:popupCharacters="ပ"/>
-        <Key android:codes="4096" android:keyLabel="က"/>
-        <Key android:codes="4100" android:keyLabel="င"/>
-        <Key android:codes="4126" android:keyLabel="သ"/>
-        <Key android:codes="4101" android:keyLabel="စ" android:keyEdgeFlags="right"/>
+        <Key android:codes="4102" android:keyLabel="ဆ" android:keyEdgeFlags="left" android:popupCharacters="၁" android:popupKeyboard="@xml/keyboard_popup_template" />
+        <Key android:codes="4112" android:keyLabel="တ" android:popupCharacters="၂" android:popupKeyboard="@xml/keyboard_popup_template" />
+        <Key android:codes="4116" android:keyLabel="န" android:popupCharacters="၃" android:popupKeyboard="@xml/keyboard_popup_template" />
+        <Key android:codes="4121" android:keyLabel="မ" android:popupCharacters="၄" android:popupKeyboard="@xml/keyboard_popup_template" />
+        <Key android:codes="4129" android:keyLabel="အ" android:popupCharacters="၅" android:popupKeyboard="@xml/keyboard_popup_template"/>
+        <Key android:codes="4117" android:keyLabel="ပ"  android:popupCharacters="၆" android:popupKeyboard="@xml/keyboard_popup_template" />
+        <Key android:codes="4096" android:keyLabel="က" android:popupCharacters="၇" android:popupKeyboard="@xml/keyboard_popup_template" />
+        <Key android:codes="4100" android:keyLabel="င" android:popupCharacters="၈" android:popupKeyboard="@xml/keyboard_popup_template" />
+        <Key android:codes="4126" android:keyLabel="သ" android:popupCharacters="၉" android:popupKeyboard="@xml/keyboard_popup_template" />
+        <Key android:codes="4101" android:keyLabel="စ" android:popupCharacters="၀" android:popupKeyboard="@xml/keyboard_popup_template" android:keyEdgeFlags="right"/>
     </Row>
     
     <Row>
-        <Key android:codes="4145" android:keyLabel="ေ" android:horizontalGap="2.5%p"
+        <Key android:codes="4145" android:keyLabel="ေ" android:horizontalGap="0%p"
                 android:keyEdgeFlags="left"/>
         <Key android:codes="4155" android:keyLabel="ျ"/>
         <Key android:codes="4141" android:keyLabel="ိ"/>
@@ -62,8 +62,8 @@
         <Key android:codes="4151" android:keyLabel="့"/>
         <Key android:codes="4156" android:keyLabel="ြ"/>
         <Key android:codes="4143" android:keyLabel="ု"/>
-        <Key android:codes="4144" android:keyLabel="ူ"/>
-        <Key android:codes="4152" android:keyLabel="း" android:horizontalGap="-4.0%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="4144" android:keyLabel="ူ" />
+        <Key android:codes="4152" android:keyLabel="း" android:horizontalGap="0%p" android:keyEdgeFlags="right"/>
     </Row>
     
     <Row>

@@ -25,15 +25,16 @@
     android:shadowRadius="0"
     android:keyTextSize="25dp"
 
+
     android:focusable="true"
     android:focusableInTouchMode="true"
     android:keyPreviewOffset="12dp"
     android:keyPreviewLayout="@layout/kbpreview"
 
     android:shadowColor="#ff0dffe6"
-    android:keyBackground="@color/key_background"
+    android:keyBackground="@drawable/bg_rounded_key_main"
     android:keyTextColor="@color/key_textcolor"
-    android:paddingBottom="5dp"
+    android:paddingBottom="2dp"
 
 
     android:popupLayout="@layout/keyboard_popup_keyboard"

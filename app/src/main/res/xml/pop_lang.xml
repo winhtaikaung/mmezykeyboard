@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="15%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="@dimen/key_height"
+    >
+
+    <Row android:rowEdgeFlags="top">
+        <Key android:keyLabel="မွန်"   android:codes="1" />
+        <Key android:keyLabel="ရှမ်း" android:codes="2"/>
+        <Key android:keyLabel="ကရင်"  android:codes="3"/>
+        <!--<Key android:keyLabel=":-P" android:keyOutputText=":-P "/>
+        <Key android:keyLabel="B-)" android:keyOutputText="B-) " android:keyEdgeFlags="right" />-->
+    </Row>
+
+</Keyboard>

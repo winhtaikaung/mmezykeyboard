@@ -79,6 +79,7 @@ public class LoliKeyboard extends InputMethodService
     private LatinKeyboard mQwertyShiftedKeyboard;
     private LatinKeyboard mQwertymmKeyboard;
     private LatinKeyboard mQwertymmShiftedKeyboard;
+    private LatinKeyboard mLangChangeKeyboard;
 
     private LatinKeyboard mCurKeyboard;
 
@@ -119,6 +120,7 @@ public class LoliKeyboard extends InputMethodService
         mQwertymmShiftedKeyboard=new LatinKeyboard(this,R.xml.qwerty_shift_mm);
         mSymbolmmkeyboard=new LatinKeyboard(this,R.xml.symbols_my);
         mSymbolmmShiftedkeyboard=new LatinKeyboard(this,R.xml.symbols_shift_my);
+        mLangChangeKeyboard=new LatinKeyboard(this,R.xml.pop_lang);
     }
 
     /**
@@ -478,6 +480,7 @@ public class LoliKeyboard extends InputMethodService
 
 
 
+
     }
 
 
@@ -569,6 +572,12 @@ public class LoliKeyboard extends InputMethodService
                 current_keyboard=mQwertyKeyboard;
             }
             mInputView.setKeyboard(current_keyboard);
+        }else if(primaryCode==1 && mInputView != null){
+            //DO mon staff
+        }else if(primaryCode == 2 && mInputView != null){
+            //Do Shan staff
+        }else if(primaryCode==3 && mInputView != null){
+            //Do karen Staff
         }
         else {
             handleCharacter(primaryCode, keyCodes);

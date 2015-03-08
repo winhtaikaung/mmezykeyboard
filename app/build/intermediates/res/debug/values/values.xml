@@ -73,6 +73,7 @@
     <!-- From: file:/home/jr/AndroidStudioProjects/mmkeyboard/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="key_background">#ffffff</color>
+    <color name="key_backgroundcolor">#a05b5c5b</color>
     <color name="key_textcolor">#ff6d6e72</color>
     <color name="key_theme_background">#ff2b2b2b</color>
     <color name="key_theme_textcolor">#ffe4e2de</color>
@@ -188,7 +189,7 @@
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
     <!-- From: file:/home/jr/AndroidStudioProjects/mmkeyboard/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
-    <dimen name="key_height">60dip</dimen>
+    <dimen name="key_height">50dip</dimen>
     <!-- From: file:/home/jr/AndroidStudioProjects/mmkeyboard/app/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.6.2.4/res/values/values.xml -->
     <eat-comment/>
     <dimen name="md_action_corner_radius">2dp</dimen>
@@ -260,6 +261,9 @@
     <string name="label_send_key">Send</string>
     <string name="label_subtype_en_GB">Loli Keyboard</string>
     <string name="label_subtype_generic">%s</string>
+    <string name="lang_karen">karen</string>
+    <string name="lang_mon">mon</string>
+    <string name="lang_shan">shan</string>
     <string name="language_selection_title">Input languages</string>
     <string name="select_language">Select input languages</string>
     <string name="settings_name">Loli Keyboard Settings</string>
